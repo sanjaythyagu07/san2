@@ -1,0 +1,18 @@
+<button id="btn">change</button>
+<script>
+    var btn = document.getElementById("btn")
+    btn.addEventListener("click",change)
+    var redcolor = false;
+    function change(){
+        if (!redcolor){
+            btn.style.backgroundColor="red";
+            redcolor = true;
+
+        }
+        else{
+            btn.style.backgroundColor ="white";
+            redcolor = false;
+        }
+        
+    }
+</script>

@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.279), rgba(0, 102, 255, 0.252), rgba(0, 255, 255, 0.307));
+    background-attachment: fixed;
+    
+}
+.btn{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 5px;
+    background: transparent;
+    border-color: azure;
+    transition: 1s;
+}
+.widthmin {
+    margin-top: 100px;
+    width: 25%;
+    height: 500px;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 5px;
+    background: transparent;
+    border-color: azure;
+    transition: 1s;
+}
+.widthmax {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: xx-large;
+    border-radius: 5px;
+    background: transparent;
+    border-color: azure;
+    transition: 1s;
+}
+
+h1{
+    text-align: center;
+}

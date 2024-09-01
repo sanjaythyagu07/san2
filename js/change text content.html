@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textContent</title>
+</head>
+<body>
+    <p id="para">Text Content</p>
+    <button onclick="change()">change</button>
+</body>
+<script>
+    var para = document.getElementById("para");
+    console.log(para.textContent) //Return the text content of an element:
+    //para.textContent = "sanjay"; // changeing the text content value
+    function change(){
+
+       para.textContent = "sanjay"; // changeing the text content value 
+    }
+
+</script>
+</html>
